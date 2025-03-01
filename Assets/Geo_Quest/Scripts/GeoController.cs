@@ -33,7 +33,7 @@ public class NewBehaviourScript : MonoBehaviour
 
         /*  if (Input.GetKeyDown(KeyCode.W))
           {
-              transform.position += new Vector3(3, 0, 1);
+              transform.position += new Vector3(0, 1, 0);
           }
           if (Input.GetKeyDown(KeyCode.A))
           {
