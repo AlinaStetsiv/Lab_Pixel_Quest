@@ -9,7 +9,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     private Rigidbody2D rb;
     public int speed = 5;
-    public string scene2 = "Scene2";
+    public string nextLevel = "Scene2";
 
     string GlobalVar = "Hello";
     int value = 3;
@@ -79,7 +79,7 @@ public class NewBehaviourScript : MonoBehaviour
                 }
             case "Finish": 
                 {
-                    SceneManager.LoadScene(scene2);
+                    SceneManager.LoadScene(nextLevel);
                     break;
                 }
         }
